@@ -1,0 +1,28 @@
+{
+  "name": "openjscad-gear",
+  "version": "1.0.0",
+  "description": "OpenJSCAD gear written by Joost Nieuwenhuijse, repackaged as a node module.",
+  "main": "gear.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmarshall/openjscad-gear.git"
+  },
+  "keywords": [
+    "openjscad",
+    "3D",
+    "gear",
+    "involute"
+  ],
+  "author": "Dan Marshall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmarshall/openjscad-gear/issues"
+  },
+  "homepage": "https://github.com/danmarshall/openjscad-gear#readme",
+  "dependencies": {
+    "@jscad/csg": "^0.3.7"
+  }
+}
